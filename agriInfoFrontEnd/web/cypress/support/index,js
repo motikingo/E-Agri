@@ -16,26 +16,3 @@ import '@cypress/code-coverage/support'
 
 // Import commands.js using ES2015 syntax:
 import './commands'
-// import '@cypress/code-coverage/support'
-
-// Alternatively you can use CommonJS syntax:
-// require('./commands')
-
-// Cypress.Commands.add('logininfo', (infoemail, password) => { 
-//     cy.visit('/')
-//     cy.get('[data-cy="email"]').type('fantahunfekadu1@gmail.com')
-//     cy.get('[data-cy="password"]').type('admin')
-//     // cy.get('[data-cy=submit]').click()
-//     cy.get('[data-cy="submit"]').click()
-
-//  })
-
-
-//  Cypress.Commands.add('loginsuper', (superemail, password) => { 
-//     cy.visit('/')
-//     cy.get('[data-cy="email"]').type('samuaeladadnew@outlook.com')
-//     cy.get('[data-cy="password"]').type('admin')
-//     // cy.get('[data-cy=submit]').click()
-//     cy.get('[data-cy="submit"]').click()
-
-//  })

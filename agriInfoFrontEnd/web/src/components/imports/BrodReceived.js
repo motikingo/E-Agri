@@ -447,13 +447,7 @@ export default class BrodReceived extends Component {
                   </div>
 {/* 
                   <div> 
-                      <button
-                      className="badge badge-danger col-sm-2 btn btn-primary"
-                      onClick={this.deleteMessage}
-                    >
-                      Delete
-                    </button>
-                  </div> */}
+              
                 </div>
               ) : (
                 <div className="clickon">
@@ -468,33 +462,11 @@ export default class BrodReceived extends Component {
               {/* <div id="log">{this.state.ws}</div> */}
               <div id="log"></div>
               <form id="form">
-              {/* <input type="submit" value="Send" />
-              <input type="text" id="msg" size="64" autofocus />    */}
+            
                 <div className="">
-                  {/* <div className="form-group">
-                    <label data-cy="showadminlabel" htmlFor="name" className="chkbox">
-                      Show to Admins :
-                      <input
-                        className="chkboxiput"
-                        type="checkbox"
-                        id="name"
-                        name="name"
-                        value={this.state.targets}
-                        onChange={this.onChangeShowToAdmins}
-                      />
-                    </label>
-                  </div> */}
+                
                   <div className="form-group mt-3">
-                    {/* <label htmlFor="email">
-                      Your Email
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                      />
-                    </label> */}
+                   
                     <label data-cy="showachooseprod" htmlFor="prod">Product :</label>
 
                     <select
